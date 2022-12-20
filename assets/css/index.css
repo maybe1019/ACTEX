@@ -1,0 +1,34 @@
+:root {
+  --color-new-actex-navy: #01243A;
+  --color-actex-blue: #293990;
+  --color-actex-light-blue: #9FBCD1;
+  --color-actex-aqua: #2A7C88;
+  --color-actex-yellow: #FFCA00;
+  --color-total-white-out: #FFFFFF;
+  --color-total-gray: #242424;
+  --color-gray: #D8DFE0;
+  --color-neutral-background: #ECECEC80;
+  --color-lightest-blue: #E6EEF4;
+  --color-middle-blue: #C0D5E4;
+  --color-darker-blue: #B0D2EB;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Abhaya Libre", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  position: relative;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACTEX Learning | Product Page</title>
+
+  <!-- Vendor CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Components Style -->
+  <link rel="stylesheet" href="./assets/css/components.css">
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+
+  <!-- Page Style -->
+  
+</head>
+
+<body>
+  <!-- Header -->
+  <!-- Header -->
+  <header class="px-3 py-2 d-flex flex-row align-items-center gap-3">
+    <a href="https://actexlearning.com" class="logo d-block text-decoration-none flex-grow-1">
+      <img src="./assets/images/actex-learning-logo.svg" alt="actex-learning-logo">
+    </a>
+    <a href="#" class="d-block d-xl-none bucket-icon text-decoration-none py-1 d-block">
+      <img src="./assets/images/icon-bucket.svg" alt="icon-bucket" class="d-block">
+    </a>
+    <button class="menu-button d-block d-xl-none">
+      <img src="./assets/images/icon-menu.svg" alt="menu-icon">
+    </button>
+    <div class="d-none d-xl-flex align-items-end gap-3">
+      <div class="exams dropdown">
+        <a role="button" class="dropdown-toggle text-decoration-none fs-5 d-flex d-flex align-items-center gap-5"
+          data-bs-toggle="dropdown">Exams</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Exam 1</a></li>
+          <li><a class="dropdown-item" href="#">Exam 2</a></li>
+          <li><a class="dropdown-item" href="#">Exam 3</a></li>
+        </ul>
+      </div>
+      <div class="d-flex flex-column gap-2">
+        <nav class="d-flex gap-5">
+          <a href="#" class="text-decoration-none fs-5">Actuarial University</a>
+          <a href="#" class="text-decoration-none fs-5">About Us</a>
+          <a href="#" class="text-decoration-none fs-5">My Account</a>
+          <a href="#" class="text-decoration-none fs-5">Support</a>
+        </nav>
+        <div class="search-bar position-relative">
+          <input type="text" class="rounded-2 bg-white border-0 w-100 px-5 py-1 text-black">
+          <img src="./assets/images/icon-search.svg" alt="search-icon" class="d-block position-absolute top-1">
+        </div>
+      </div>
+      <a href="#" class="bucket-icon text-decoration-none py-1 d-block">
+        <img src="./assets/images/icon-bucket.svg" alt="icon-bucket" class="d-block">
+      </a>
+    </div>
+
+    <div class="menu-responsive-container d-xl-none position-fixed" style="display: none; z-index: 5;">
+      <div class="menu-responsive-bg position-fixed top-0 bg-black opacity-25"
+        style="z-index: 2; left: 0; width: 100vw; height: 100vh"></div>
+      <div class="menu-responsive p-3 position-fixed top-0 d-flex flex-column"
+        style="z-index: 3; right: 0; width: 300px; background-color: #274558; height: 100vh;">
+        <div class="search-bar position-relative mb-3">
+          <input type="text" class="rounded-2 bg-white border-0 w-100 px-5 py-1 text-black">
+          <img src="./assets/images/icon-search.svg" alt="search-icon" class="d-block position-absolute top-1">
+        </div>
+
+        <div class="fs-4 w-100 p-2 cursor">Exams</div>
+        <div class="px-3">
+          <div><a href="#" class="text-decoration-none fs-5 p-2 d-block">Exam 1</a></div>
+          <div><a href="#" class="text-decoration-none fs-5 p-2 d-block">Exam 2</a></div>
+          <div><a href="#" class="text-decoration-none fs-5 p-2 d-block">Exam 3</a></div>
+        </div>
+
+        <nav class="">
+          <a href="#" class="text-decoration-none fs-5 d-block p-2">Actuarial University</a>
+          <a href="#" class="text-decoration-none fs-5 d-block p-2">About Us</a>
+          <a href="#" class="text-decoration-none fs-5 d-block p-2">My Account</a>
+          <a href="#" class="text-decoration-none fs-5 d-block p-2">Support</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="product-page">
+    <div class="breadcrumb p-3 m-0">
+      Home
+      <img src="./assets/images/icon-arrow-right.svg" alt="right-arrow">
+      CAS Exam MAS-I
+    </div>
+
+    <div class="banner position-relative">
+      <img src="./assets/images/img-banner-circles.png" alt="banner">
+      <a href="#second"
+        class="text-decoration-none rounded-circle position-absolute d-flex justify-content-center align-items-center"
+        style="width: 54px; height: 54px; border: 2px solid #FFCA00; background-color: #01263c73; cursor: pointer; bottom: 0; left: 44px; z-index: 2;">
+        <img src="./assets/images/icon-arrow-down.svg" alt="arrow-down" style="width: 24px;">
+      </a>
+    </div>
+
+    <div id="second" class="page-section has-bg" style="background-color: #F5F5F5;">
+      <img src="./assets/images/img-section-bg-1-top.png" alt="bg" class="background-image-top">
+      <div class="container">
+        <div class="image-part">
+          <img src="./assets/images/img-manual-program.png" alt="manual program" class="single-image">
+        </div>
+        <div class="main-part">
+          <div class="title">Study Program for SOA Exam P</div>
+          <div class="button-group">
+            <button class="button-1">View Sample</button>
+            <button class="button-1">Watch Video</button>
+            <button class="button-2">Buy Now - Starting At $169.00</button>
+          </div>
+          <p>
+            Brief description of study program - possibly for SEO needs will go here at some point. This is just text to
+            show what it would look like with two to three sentences of text...learn more
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-section has-bg" style="background-color: #E6EEF4;">
+      <img src="./assets/images/img-section-bg-2-top.png" alt="bg" class="background-image-top">
+      <img src="./assets/images/img-section-bg-2-bottom.png" alt="bg" class="background-image-bottom">
+      <div class="container">
+        <div class="image-part">
+          <div class="image-card">
+            <img src="./assets/images/img-section-goal.svg" alt="goal">
+            <div>GOAL</div>
+          </div>
+        </div>
+        <div class="main-part">
+          <div class="title">GOAL CAS Exam MAS-I</div>
+          <div class="button-group">
+            <button class="button-1">View Sample</button>
+            <button class="button-1">Watch Video</button>
+            <button class="button-2">Buy Now - Starting At $169.00</button>
+          </div>
+          <p>
+            Brief description of study program - possibly for SEO needs will go here at some point. This is just text to
+            show what it would look like with two to three sentences of text...learn more
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="study-tool">
+      <div class="container">
+        <div class="left">
+          <p>
+            Study Tools for All
+            <br> <br>
+            We provide you with all the options you need to find the tools that work best for you.
+          </p>
+          <div class="button-group">
+            <button>Learn More</button>
+            <button>
+              <img src="./assets/images/icon-browser.svg" alt="browser">
+              <div>Study On Your Web Browser</div>
+            </button>
+            <button>
+              <img src="./assets/images/icon-apple.svg" alt="apple">
+              <div>Find us on the App Store</div>
+            </button>
+            <button>
+              <img src="./assets/images/icon-google-play.svg" alt="google play">
+              <div>Get it On Google Play</div>
+            </button>
+          </div>
+        </div>
+        <div class="right">
+          <img src="./assets/images/img-study-apps.png" alt="study apps">
+        </div>
+      </div>
+
+      <button class="btn-scroll-top">
+        <img src="./assets/images/icon-arrow-up.svg" alt="arrow-up">
+      </button>
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="p-4 d-flex flex-column gap-4">
+    <div class="row gap-3 gap-md-0">
+      <a href="#" class="logo col-12 col-md-6">
+        <img src="./assets/images/actex-learning-logo.svg" alt="actex-learning-logo">
+      </a>
+      <div class="subscribe-bar d-flex col-12 col-md-6 align-items-center">
+        <input type="text" class="rounded-start border-0 px-2 py-1 fs-5 flex-grow-1 w-50">
+        <button class="px-4 py-1 border-0 rounded-end fs-5 text-white">Subscribe</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="fs-4 mb-2">About Us</div>
+        <ul>
+          <li class="fs-5"><a href="#">Educational Community</a></li>
+          <li class="fs-5"><a href="#">Benefit Corporation</a></li>
+          <li class="fs-5"><a href="#">Innovation & Expertise</a></li>
+          <li class="fs-5"><a href="#">ACTEX Impact Report</a></li>
+          <li class="fs-5"><a href="#">Professional Integrity</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="fs-4 mb-2">My Account</div>
+        <ul>
+          <li class="fs-5"><a href="#">My Profile</a></li>
+          <li class="fs-5"><a href="#">iPass Points</a></li>
+          <li class="fs-5"><a href="#">Order History</a></li>
+          <li class="fs-5"><a href="#">Payments & Addresses</a></li>
+          <li class="fs-5"><a href="#">Actuarial University</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="fs-4 mb-2">Support</div>
+        <ul>
+          <li class="fs-5"><a href="#">Hours of Operation</a></li>
+          <li class="fs-5"><a href="#">Student FAQs & Eureka</a></li>
+          <li class="fs-5"><a href="#">Return Addresses</a></li>
+          <li class="fs-5"><a href="#">Pass Guarantee</a></li>
+          <li class="fs-5"><a href="#">Professor Support</a></li>
+          <li class="fs-5"><a href="#">Errata</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="fs-4 mb-2">Contact Us</div>
+        <div class="fs-5">(800) 282 -2839 <br> (860) 379-5470</div>
+        <div class="line my-1"></div>
+        <div class="py-3 fs-5">support@actexmadriver.com</div>
+        <div class="social-buttons d-flex flex-wrap gap-3">
+          <button>
+            <img src="./assets/images/icon-social-facebook.svg" alt="facebook">
+          </button>
+          <button>
+            <img src="./assets/images/icon-social-linkedin.svg" alt="linkedin">
+          </button>
+          <button>
+            <img src="./assets/images/icon-social-instagram.svg" alt="instagram">
+          </button>
+          <button>
+            <img src="./assets/images/icon-social-twitter.svg" alt="twitter">
+          </button>
+          <button>
+            <img src="./assets/images/icon-social-youtube.svg" alt="youtube">
+          </button>
+          <button>
+            <img src="./assets/images/icon-email.svg" alt="email">
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/index.js"></script>
+
+</html>

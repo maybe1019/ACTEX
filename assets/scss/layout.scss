@@ -1,0 +1,92 @@
+// Header Style
+header {
+  background-color: #274558;
+  color: white;
+
+  a {
+    color: white;
+
+    &:hover {
+      color: white;
+      opacity: 0.8;
+    }
+  } 
+
+  .logo img {
+    height: 46px;
+    display: block;
+
+    @media screen and (max-width: 576px) {
+      height: 32px;
+    }
+  }
+
+  .search-bar {
+    input {
+      outline: none;
+    }
+    img {
+      top: 3px;
+      left: 8px;
+      height: 26px;
+    }
+  }
+
+  .bucket-icon {
+    img {
+      height: 24px;
+    }
+  }
+
+  .menu-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+
+    img {
+      height: 24px;
+    }
+  }
+}
+
+
+// Footer Style
+footer {
+  background-color: var(--color-new-actex-navy);
+  color: white;
+
+  .subscribe-bar {
+    button {
+      background-color: var(--color-actex-aqua);
+    }
+  }
+
+  .social-buttons button {
+    background-color: transparent;
+    margin: 0;
+    border: none;
+    padding: 0;
+    outline: none;
+
+    img {
+      display: block;
+      height: 30px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: white;
+      opacity: 0.8;
+    }
+  }
+  
+  .line {
+    width: 150px;
+    border-bottom: 1px solid white;
+  }
+}

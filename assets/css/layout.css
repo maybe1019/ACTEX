@@ -1,0 +1,71 @@
+header {
+  background-color: #274558;
+  color: white;
+}
+header a {
+  color: white;
+}
+header a:hover {
+  color: white;
+  opacity: 0.8;
+}
+header .logo img {
+  height: 46px;
+  display: block;
+}
+@media screen and (max-width: 576px) {
+  header .logo img {
+    height: 32px;
+  }
+}
+header .search-bar input {
+  outline: none;
+}
+header .search-bar img {
+  top: 3px;
+  left: 8px;
+  height: 26px;
+}
+header .bucket-icon img {
+  height: 24px;
+}
+header .menu-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+}
+header .menu-button img {
+  height: 24px;
+}
+
+footer {
+  background-color: var(--color-new-actex-navy);
+  color: white;
+}
+footer .subscribe-bar button {
+  background-color: var(--color-actex-aqua);
+}
+footer .social-buttons button {
+  background-color: transparent;
+  margin: 0;
+  border: none;
+  padding: 0;
+  outline: none;
+}
+footer .social-buttons button img {
+  display: block;
+  height: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: white;
+  opacity: 0.8;
+}
+footer .line {
+  width: 150px;
+  border-bottom: 1px solid white;
+}/*# sourceMappingURL=layout.css.map */
